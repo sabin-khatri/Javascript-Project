@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+}
+header{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content{
+    margin-bottom: 20px;
+}
+.quote-area{
+    position: relative;
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.quote-area i{
+    font-size: 24px;
+    color: #007bff;
+}
+.quote-area .fa-quote-left{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+.quote-area .fa-quote-right{
+    position: absolute;
+    bottom: -0px;
+    right: 10px;
+}
+.author{
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 16px;
+    color: #666;
+}
+.author .name{
+    font-weight: bold;
+      color: #333;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.features ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.features ul li{
+    cursor: pointer;
+    font-size: 24px;
+    color: #007bff;
+    transition: color 0.3s;
+}
+.features ul li:hover{
+    color: #0056b3;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: #0056b3;
+}
